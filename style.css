@@ -1,0 +1,54 @@
+@font-face {
+  font-family: takecute;
+  src: url("TAKE CUTE.otf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url("bgi.jpeg");
+  background-repeat: repeat;
+  font-family: takecute;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  scroll-snap-align: start;
+}
+
+.subsection {
+  overflow-x: hidden;
+  margin: 0;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigText,
+.midText,
+.smallText {
+  font-size: 70px;
+  color: rgb(216, 0, 0);
+  text-align: center;
+  padding: 0.5em;
+}
+
+.midText {
+  font-size: 50px;
+}
+
+.smallText {
+  font-size: 40px;
+}
+
+
