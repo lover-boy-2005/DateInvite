@@ -4,41 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A special birthday greeting page">
+    <title>Happy Birthday! ❤️</title>
     <link rel="stylesheet" href="style.css">
-    <title>❤️</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="code.js" defer></script>
 </head>
 
 <body>
-    <div class="section">
-        <div class="bigText">Hi Priya!!!</div>
-    </div>
-    <div class="section">
-        <div class="midText">
-            So I was wondering how can I gift you something handmade because i am tragic at that stuff but then i
-            thought I can code and this is the result I hope you like it ❤️❤️❤️❤️
-        </div>
-    </div>
-    <div class="section">
-        <div class="subsection">
-            <div class="smallText">I Love You <br>🫵❤️</div>
-        </div>
-        <div class="subsection">
-            <div class="smallText">I Love the way<br>You talk 🗣 </div>
-        </div>
-        <div class="subsection">
-            <div class="smallText">I love the way<br>You Smile 😊</div>
-        </div>
-        <div class="subsection">
-            <div class="smallText">I Love the way <br>You care 🫂</div>
-        </div>
-        <div class="subsection">
-            <div class="smallText">But most of all I Love<br>The Bond we Share</div>
-        </div>
-    </div>
 
-    <div class="section">
-        
-    </div>
+    <main class="container">
+        <header>
+            <h1 class="birthday-heading tracking-in-expand">Happy Birthday!</h1>
+        </header>
+        <section class="greeting-section hidden" id="greeting-section">
+            <div class="typing-container">
+                <p>
+                    <span class="static-text">To the most</span>
+                    <span id="feature-text" class="dynamic-text" aria-live="polite"></span>
+                    <span class="static-text">girl I know</span>
+                </p>
+            </div>
+            <div class="static-text-letter">
+                Wishing the most extraordinary of birthdays to the unparalleled and exceptional companion, whose
+                magnificence transcends
+                all worldly comparisons! May this day be replete with resplendent joy and profound felicity, befitting
+                the most
+                illustrious partner in existence.
+            </div>
+        </section>
+    </main>
+    <footer class="hidden" id="footer">
+        <p class="love-note">With ❤️ Your Akshat</p>
+    </footer>
 </body>
 
 </html>
